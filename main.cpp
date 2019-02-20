@@ -30,7 +30,7 @@ double sqrt(int num){
     comparisons++;
     cout << comparisons;
     mid = (lower+upper)/2;
-    cout << " - " << lower << " - " << upper << " - " << mid << endl;
+
     if((mid*mid)==num){
       return mid;
     }else if((mid*mid)>num){
